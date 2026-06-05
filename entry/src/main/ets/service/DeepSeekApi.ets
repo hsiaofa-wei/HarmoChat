@@ -3,7 +3,7 @@ import { http } from '@kit.NetworkKit';
 import { MessageRole } from '../model/Message';
 
 export class ApiConfig {
-  static API_KEY: string = 'sk-a108902307d942f9b79d8bd16acf4d1e';
+  static API_KEY: string = '你的密钥';
   static BASE_URL: string = 'https://api.deepseek.com/chat/completions';
   static MODEL: string = 'deepseek-v4-flash';
   static MAX_TOKENS: number = 2000;
